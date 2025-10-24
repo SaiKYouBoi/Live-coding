@@ -1,0 +1,89 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+div{
+    
+    height: 100%;
+}
+
+.cards .fstcontainer{
+    grid-area: 2/1/1/3;
+    background-color: rgb(143, 97, 236);
+    border-radius: 10px;
+}
+
+.ndcontainer{
+    grid-area: 2/2/2/4;
+}
+
+.rdcontainer{
+    grid-area: 1/4/4/4;
+}
+
+.fstcontainer-content{
+    padding: 20px;
+}
+
+.memberdetails-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    width: 50%;
+    height: 20%;
+}
+
+.memberdetails-container div:first-child{
+    width: 30%;
+}
+
+.memberdetails-container img{
+    border: rgb(188, 168, 228) 4px solid;
+    border-radius: 50%;
+}
+
+.memberdetails-container p{
+    margin: 0;
+}
+
+
+.memberdetails-description{
+    height: 20%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.memberdetails-exprience{
+    height: 50px;
+    
+}
+
+.memberdetails-description p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.memberdetails-exprience{
+    padding: 10px;
+}
+
+.memberdetails-exprience p{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
